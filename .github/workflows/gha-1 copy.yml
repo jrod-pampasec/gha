@@ -1,6 +1,7 @@
-name: Manual workflow
+name: Manual workflow 2
 on:
   workflow_dispatch:
+  push:
 jobs:
   greet:
     runs-on: ubuntu-latest
