@@ -1,0 +1,13 @@
+name: 02 - Evento issue
+on:
+    issues:
+        types: [opened]
+    push:
+        paths-ignore:
+            - 'README.md'
+jobs:
+  hola-mundo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar el evento que disparó el workflow
+        run: echo "Disparado por ${{ github.event_name }}"
