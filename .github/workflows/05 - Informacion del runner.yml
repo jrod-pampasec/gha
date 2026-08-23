@@ -1,7 +1,7 @@
 name: 05 - Informacion del runner
 on:
   push:
-    braches: [ "main" ]
+    branches: [ "main" ]
   workflow_dispatch:
 jobs:
   info-runner:
