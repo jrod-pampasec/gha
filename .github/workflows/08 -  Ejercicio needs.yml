@@ -1,4 +1,4 @@
-name: 07a - Entrada y salida
+name: 08a - Entrada y salida
 on:
   workflow_dispatch:
     inputs:
